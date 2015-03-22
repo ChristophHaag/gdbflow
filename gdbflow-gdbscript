@@ -1,0 +1,12 @@
+source -s ./gdbflow-gdbscriptpy.py
+#set trace-commands off
+#break _start
+##break _exit #TODO
+#run
+#set logging file gdbflow-log
+#set logging overwrite on
+#set logging on
+#while (1)
+#step
+#end
+#quit
