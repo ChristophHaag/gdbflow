@@ -41,11 +41,13 @@ with open("gdbflow-log") as f:
                    "\nIn line " + str(j["line"]) + " in function " + j["funcname"] + " in file " + j["filename"]
         if "vars" in j and j["vars"]:
             for i in j["vars"]:
-                if not i: continue #no vars
-                nodename += "\nVariable name: " + str(i["name"])
-                nodename += "; Variable type: " + str(i["type"])
+                if i["optimized"]:
+                    val = "<optimized out>"
                 if "value" in i:
-                    nodename += "; Variable value: " + str(i["value"])
+                    val = str(i["value"])
+                else:
+                    val = "??"
+                nodename += "\n" + str(i["type"]) + " " + str(i["name"]) + " (" + val + ")"
         G.add_node(nodename)
         G.add_edge(last,nodename)
         last = nodename

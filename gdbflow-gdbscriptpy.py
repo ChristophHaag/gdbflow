@@ -9,10 +9,21 @@ def localvars(frame):
   except: return None
   symbols = []
   for symbol in block:
-    s = {"name": symbol.print_name, "type": str(symbol.type)}
-    if symbol.is_variable:
+    if symbol.is_variable or symbol.is_argument:
+      t = None
+      try:
+        t = str(gdb.types.get_basic_type(symbol.type))
+      except Exception as e:
+        print (e)
+        try:
+          t = t = str(gdb.types.deep_items(symbol.type))
+        except Exception as e:
+          print(e)
+          pass
+      s = {"name": symbol.print_name, "type": t}
       s["value"] = str(symbol.value(frame))
-    symbols.append(s)
+      s["optimized"] = bool(symbol.value(frame).is_optimized_out)
+      symbols.append(s)
   return symbols
 
 with open("gdbflow-log", "w") as f:
