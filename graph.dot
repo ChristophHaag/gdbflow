@@ -1,0 +1,395 @@
+strict graph  {
+	"Step 1:
+In line 0 in function __libc_start_main in file " -- "Step 2:
+In line 19 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 0
+Variable name: b; Variable type: int; Variable value: 0";
+	0 -- "Step 1:
+In line 0 in function __libc_start_main in file ";
+	"Step 2:
+In line 19 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 0
+Variable name: b; Variable type: int; Variable value: 0" -- "Step 3:
+In line 20 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 0";
+	"Step 3:
+In line 20 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 0" -- "Step 4:
+In line 10 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; Variable \
+value: 0";
+	"Step 4:
+In line 10 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; Variable \
+value: 0" -- "Step 5:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 32767";
+	"Step 5:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 32767" -- "Step 6:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 20";
+	"Step 6:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 20" -- "Step 7:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18";
+	"Step 7:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18" -- "Step 8:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18";
+	"Step 8:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18" -- "Step 9:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1";
+	"Step 9:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1" -- "Step 10:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0";
+	"Step 10:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0" -- "Step 11:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0";
+	"Step 11:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0" -- "Step 12:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18";
+	"Step 12:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 18" -- "Step 13:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 16";
+	"Step 13:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 16" -- "Step 14:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14";
+	"Step 14:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14" -- "Step 15:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14";
+	"Step 15:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14" -- "Step 16:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0";
+	"Step 16:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 0" -- "Step 17:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1";
+	"Step 17:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1" -- "Step 18:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1";
+	"Step 18:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1" -- "Step 19:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14";
+	"Step 19:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 14" -- "Step 20:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 158";
+	"Step 20:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 158" -- "Step 21:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156";
+	"Step 21:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156" -- "Step 22:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156";
+	"Step 22:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156" -- "Step 23:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1";
+	"Step 23:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 1" -- "Step 24:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2";
+	"Step 24:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2" -- "Step 25:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2";
+	"Step 25:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2" -- "Step 26:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156";
+	"Step 26:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 156" -- "Step 27:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23872";
+	"Step 27:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23872" -- "Step 28:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870";
+	"Step 28:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870" -- "Step 29:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870";
+	"Step 29:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870" -- "Step 30:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2";
+	"Step 30:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 2" -- "Step 31:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3";
+	"Step 31:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3" -- "Step 32:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3";
+	"Step 32:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3" -- "Step 33:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870";
+	"Step 33:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 23870" -- "Step 34:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705294";
+	"Step 34:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705294" -- "Step 35:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292";
+	"Step 35:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292" -- "Step 36:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292";
+	"Step 36:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292" -- "Step 37:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3";
+	"Step 37:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 3" -- "Step 38:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4";
+	"Step 38:
+In line 12 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4" -- "Step 39:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4";
+	"Step 39:
+In line 13 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4" -- "Step 40:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292";
+	"Step 40:
+In line 4 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: 569705292" -- "Step 41:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969616";
+	"Step 41:
+In line 5 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969616" -- "Step 42:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969618";
+	"Step 42:
+In line 6 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969618" -- "Step 43:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969618";
+	"Step 43:
+In line 7 in function bar in file simple.c
+Variable name: c; Variable type: int
+Variable name: d; Variable type: int; Variable \
+value: -2119969618" -- "Step 44:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4";
+	"Step 44:
+In line 11 in function foo in file simple.c
+Variable name: i; Variable type: int; Variable value: 4" -- "Step 45:
+In line 15 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; \
+Variable value: 1566124090";
+	"Step 45:
+In line 15 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; \
+Variable value: 1566124090" -- "Step 46:
+In line 16 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; \
+Variable value: 1566124090";
+	"Step 46:
+In line 16 in function foo in file simple.c
+Variable name: a; Variable type: int
+Variable name: c; Variable type: int; \
+Variable value: 1566124090" -- "Step 47:
+In line 21 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090";
+	"Step 47:
+In line 21 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090" -- "Step 48:
+In line 22 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090";
+	"Step 48:
+In line 22 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090" -- "Step 49:
+In line 23 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090";
+	"Step 49:
+In line 23 in function main in file simple.c
+Variable name: argc; Variable type: int
+Variable name: args; Variable type: \
+char **
+Variable name: a; Variable type: int; Variable value: 15
+Variable name: b; Variable type: int; Variable value: 1566124090" -- "Step 50:
+In line 0 in function __libc_start_main in file ";
+}
